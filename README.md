@@ -20,7 +20,7 @@ This repository contains **Dockerfile** of [Chrome](https://www.google.com/chrom
 
 ### Usage
 
-    docker run -it --rm dockerfile/chrome
+    docker run -it --rm -p 5901:5901 dockerfile/chrome
 
     USER=root vncserver :1 -geometry 1280x800 -depth 24
 
