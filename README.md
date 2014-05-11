@@ -21,3 +21,7 @@ This repository contains **Dockerfile** of [Chrome](https://www.google.com/chrom
 ### Usage
 
     docker run -it --rm dockerfile/chrome
+
+    USER=root vncserver :1 -geometry 1280x800 -depth 24
+
+* Connect to desktop: `vnc://<host>:5901`

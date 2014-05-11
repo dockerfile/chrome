@@ -21,3 +21,6 @@ WORKDIR /data
 
 # Define default command.
 CMD ["bash"]
+
+# Expose ports.
+EXPOSE 5901
