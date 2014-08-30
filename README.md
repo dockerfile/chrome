@@ -4,7 +4,7 @@
 This repository contains **Dockerfile** of [Chrome](https://www.google.com/chrome/browser/) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/dockerfile/chrome/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
 
 
-### Dependencies
+### Base Docker Image
 
 * [dockerfile/ubuntu-desktop](http://dockerfile.github.io/#/ubuntu-desktop)
 
