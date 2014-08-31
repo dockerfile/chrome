@@ -15,9 +15,6 @@ RUN \
   apt-get install -y google-chrome-stable && \
   rm -rf /var/lib/apt/lists/*
 
-# Define mountable directories.
-VOLUME ["/data"]
-
 # Define working directory.
 WORKDIR /data
 
